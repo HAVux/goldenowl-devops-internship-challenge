@@ -5,7 +5,7 @@ on:
   push:
     branches:
       - master
-      - 'feature/**'
+      - 'feature*'
 
 env:
   PROJECT_ID: cobalt-alchemy-476906-m9
